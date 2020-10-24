@@ -1,0 +1,81 @@
+html, body {
+   width: 100%;
+   height: 100%;
+   background-color: hsl(220, 25%, 10%);
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ .container {
+   margin: 0 auto;
+   width: 1140px;
+}
+ h1 {
+   position: relative;
+   margin-bottom: 5px;
+   font-family: 'Oswald', sans-serif;
+   font-size: 44px;
+   text-transform: uppercase;
+   color: #ea8478;
+}
+
+h4{
+   text-transform: uppercase;
+}
+
+p {
+   color: white;
+}
+
+ .gallery-wrap {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   height: 70vh;
+}
+ .item {
+   flex: 1;
+   height: 100%;
+   background-position: center;
+   background-size: cover;
+   background-repeat: none;
+   transition: flex 0.8s ease;
+}
+ .item:hover {
+   flex: 7;
+}
+ .item-1 {
+   background-image: url('Kioto.jpg');
+}
+ .item-2 {
+   background-image: url('rome.jpg');
+}
+ .item-3 {
+   background-image: url('Charleston.jpg');
+}
+
+.text-block {
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
